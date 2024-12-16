@@ -1,0 +1,30 @@
+
+
+.tile{
+    display: flex;
+    background-image: url("woodtexturetile.png");
+    background-repeat: repeat;
+    color: white;
+    border-color: black;
+    border-width: thick;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover{
+    background-blend-mode: luminosity;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tile:active{
+    height: 95%;
+    width: 95%;
+    margin:0;
+
+}
+
+h1{
+    margin: auto;
+}

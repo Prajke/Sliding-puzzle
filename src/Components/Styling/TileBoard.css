@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    margin: auto;
+    max-width: 400px;
+    max-height: 500px;
+    background-image: url("woodtextureboard.png");
+    background-repeat: repeat;
+    padding: 20px;
+    border-color: black;
+    border-width: thick;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.grid-item{
+    display: grid;
+    aspect-ratio: 1;   
+}
+
+button{
+    margin: 10px;
+}
+
+.dialog{
+    position: fixed;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
